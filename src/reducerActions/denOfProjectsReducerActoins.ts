@@ -1,4 +1,4 @@
-import { denOfProjectsActionTypes } from "../actionTypes/denOfProjectsActionTypes";
+import denOfProjectsActionTypes from "../actionTypes/denOfProjectsActionTypes";
 
 export function incriment() {
   return {
