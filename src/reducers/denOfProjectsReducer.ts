@@ -1,5 +1,5 @@
 import { Reducer } from "redux";
-import { denOfProjectsActionTypes } from "../actionTypes/denOfProjectsActionTypes";
+import denOfProjectsActionTypes from "../actionTypes/denOfProjectsActionTypes";
 import { denOfProjectsDTO } from "../DTOs/denOfProjectsDTO";
 
 const initialState: denOfProjectsDTO = {
