@@ -1,5 +1,5 @@
-import * as dopsActions from "../../reducerActions/denOfProjectsReducerActoins";
-import denOfProjectsActionTypes from "../../actionTypes/denOfProjectsActionTypes";
+import * as dopsActions from "../../reducerActions/mainReducerActions";
+import denOfProjectsActionTypes from "../../actionTypes/mainActionTypes";
 
 describe("actions", () => {
   it("should incriment count value", () => {

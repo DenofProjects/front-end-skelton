@@ -1,9 +1,9 @@
 import {  legacy_createStore as createStore, applyMiddleware, combineReducers } from "redux";
 import thunk from "redux-thunk";
-import denOfProjectsReducer from "../reducers/denOfProjectsReducer";
+import mainReducer from "../reducers/mainReducer";
 
 const rootReducer = combineReducers({
-  denOfProjectsReducerState: denOfProjectsReducer,
+  mainReducerState: mainReducer,
 });
 
 const store = createStore(rootReducer, applyMiddleware(thunk));

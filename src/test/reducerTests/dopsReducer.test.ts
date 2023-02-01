@@ -1,5 +1,5 @@
-import * as dopsReducerActions from "../../reducerActions/denOfProjectsReducerActoins";
-import denOfProjectsReducer from "../../reducers/denOfProjectsReducer";
+import * as dopsReducerActions from "../../reducerActions/mainReducerActions";
+import denOfProjectsReducer from "../../reducers/mainReducer";
 
 describe("Test initial state for incriment", () => {
   test("Is doing nothing for default case", () => {
